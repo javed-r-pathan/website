@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Javed Pathan - Researcher</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ecf0f1;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 40px 0;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 28px;
+            color: #34495e;
+            margin-bottom: 30px;
+        }
+
+        .section-text {
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        /* Photo Gallery */
+        /* Masonry-like layout using CSS columns */
+        .gallery {
+            column-count: 4;
+            column-gap: 15px;
+        }
+
+        @media (max-width: 1000px) {
+            .gallery {
+                column-count: 3;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .gallery {
+                column-count: 2;
+            }
+        }
+
+        .gallery a {
+            display: inline-block;
+            margin-bottom: 15px;
+            width: 100%;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.03);
+        }
+
+
+
+
+        /* Welcome Section Photo */
+        .welcome-photo {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .welcome-photo img {
+            width: 450px;
+            height: 430px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
+
+    <!-- Lightbox2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Lightbox2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+
+    <!-- Glightbox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+    <!-- Glightbox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+
+
+</head>
+<body >
+
+    <header>
+        <nav>
+            <ul >
+                <li ><a href="#welcome">Welcome</a></li>
+                <li ><a href="#about">About</a></li>
+                <li ><a href="#research">Research</a></li>
+                <li ><a href="#Publications">Publications</a></li>
+                <li ><a href="#Conference and workshop">Conference and workshop</a></li>
+                <li ><a href="#contact">Contact</a></li>
+                <li ><a href="#gallery">Gallery</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <section id="welcome">
+        <div class="container">
+            <div class="welcome-photo">
+                <img src="./profile.jpg" alt="Dr. Javed Pathan">
+            </div>
+            <h1 class="section-title">Welcome</h1>
+            <p class="section-text">
+                I’m Dr. Javed Pathan, a researcher in supramolecular and polymer chemistry, with a keen interest in developing advanced materials aimed at promoting a sustainable future. My work lies at the intersection of materials science and organic synthesis, where I tackle complex challenges in molecular design and functional material development. My research journey began with a focus on supramolecular chemistry, where I synthesized crystalline polyamides through topochemical azide–alkyne cycloaddition polymerization conducted under solvent- and catalyst-free conditions. This approach allowed for the precise construction of polymeric architectures within crystal lattices. I also explored the thermoresponsive behavior of organic crystals during topochemical transformations, observing remarkable effects such as cracking, expansion, and self-healing—characteristics that point toward the development of smart, responsive materials. Currently, my research extends into the design and synthesis of porous organic frameworks and molecular cages, which hold significant potential for applications including gas storage, molecular separation, and catalysis. More broadly, I’m fascinated by the interplay between solid-state reactivity and molecular organization, and I aim to contribute to the rational design of next-generation functional materials through innovative chemistry.
+            </p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h1 class="section-title">About Me</h1>
+            <p class="section-text">
+                My academic journey began with a B.Sc. in Chemistry, Botany, and Microbiology from Matsyodari Shikshan Sanstha’s Arts, Commerce and Science College, Ambad, Maharashtra (2011–2014), followed by an M.Sc. in Organic Chemistry from Dr. Babasaheb Ambedkar Marathwada University, Aurangabad (2014–2016). These formative years solidified my passion for chemistry and laid the groundwork for advanced research. Driven by a deep interest in supramolecular chemistry, I pursued a Ph.D. at the Indian Institute of Science Education and Research (IISER) Thiruvananthapuram, Kerala (2017–2023), under the mentorship of Prof. Kana M. Sureshan. My doctoral research focused on the design and topochemical azide–alkyne cycloaddition (TAAC) polymerization of hydrogen-bonded molecular systems in the solid state, as well as exploring the thermoresponsive behavior of organic crystalline materials. Currently, I am a Postdoctoral Researcher in the Department of Chemistry at Washington University in St. Louis, working under the guidance of Prof. Chenfeng Ke. My research centers on the design and synthesis of discrete organic cages and porous frameworks, with a broader interest in supramolecular chemistry, molecular self-assembly, and functional materials. Through this work, I aim to contribute to the development of advanced materials with potential applications in gas storage, separation, and catalysis.
+            </p>
+        </div>
+    </section>
+    <section id="research">
+        <div class="container">
+            <h1 class="section-title">Research Interests</h1>
+            <p class="section-text">
+                My research interests span a wide range of topics in materials science, including:
+                <ul>
+                    <li>Supramolecular Chemistry</li>
+                    <li>Crystal Engineering</li>
+                    <li>Topochemical Reactions/polymerizarion</li>
+                    <li>Organic Cages</li>
+                    <li>Hydrogen bonded organic frameworks</li>
+                    <li>Dynamic organic crystals</li>
+                </ul>
+                I am particularly interested in exploring the intersection of these fields to create innovative materials with enhanced performance and functionality. I collaborate with researchers from diverse backgrounds to address complex scientific challenges.
+            </p>
+        </div>
+    </section>
+
+<section id="Publications">
+        <div class="container">
+            <h1 class="section-title">Publication</h1>
+            <p class="section-text">
+                    Selected publications:
+                <ul>
+                    <li>J. R. Pathan, K. M. Sureshan*. Solvent-free and catalyst-free synthesis of cross-linkable polyfumaramides via topochemical azide-alkyne cycloaddition polymerization. ACS Sustainable Chem. Eng. 2021, 9, 9871–9878</li>
+                    <li>J. R. Pathan, Subrajyoti Bhandary, Kana M. Sureshan*. Two structurally different polymers from a single monomer. J. Am. Chem. Soc. 2023,145, 41, 22633–22638</li> 
+                    <li>J. R. Pathan, H. Balan, P. Commin, A. Ravi, M. B, Al-Handawi, I. C. Hou, P. Naumov* and K. M. Sureshan*. J. Am. Chem. Soc. 2024, 146, 39, 27100–27108</li>
+                    <li>Single-Crystal-to-Single-Crystal Synthesis of a Polymer in Two Distinct Topologies. Dr. J. R. Pathan, H. Balan, K. Das, Prof. Dr. C. M. Reddy and Prof. Dr. K. M. Sureshan* Angew. Chem. Int. Ed., 2025, 64, 15, e202500646</li>
+                    <li>K. Hema, A. Ravi, C. Raju, J. R. Pathan, R. Rai, K. M. Sureshan*. Topochemical polymerizations for the solid-state synthesis of organic polymers. Chem. Soc. Rev., 2021, 50, 4062-4099</li>
+                    <li>A. Prathap, A. Ravi, J. R. Pathan, K. M. Sureshan*. Halobenzyl alcohols as structurally simple organogelators. CrystEngComm., 2019, 21, 5310–5316</li>
+        </div>
+    </section>
+  <section id="Graphical abstract">
+        <div class="container">
+            <h1 class="section-title">Graphical abstract>
+            <p class="section-text">
+            </p>
+            <div class="gallery">
+                <img src="./photo1.jpg" alt="Image 1" height="200">
+                <img src="./photo2.jpg" alt="Image 2" height="200">
+                <img src="./photo3.jpg" alt="Image 3" height="200">
+                <img src="./photo4.jpg" alt="Image 4" height="200">
+            </div>
+        </div>
+    </section>
+<section id="Conference and workshop">
+        <div class="container">
+            <h1 class="section-title">Conference and workshop</h1>
+            <p class="section-text"> <ul>
+                    <li> The North American Supramolecular Chemistry (NASC) meeting. New Orleans, December 16-17, 2024 </li>
+                    <li> NASC 2024 Workshop on Binding Constants by Amar Flood and Douglas A. Vander Griend </li>
+         </div>
+    </section>
+
+
+<section id="gallery">
+    <div class="container">
+        <h1 class="section-title">Photo Gallery</h1>
+        <p class="section-text">
+            A glimpse of moments captured during my time at Washington University in St. Louis, USA (while pursuing my postdoc), and at IISER Thiruvananthapuram, India (during my PhD)
+        </p>
+        <div class="gallery">
+            <a href="./photo 01.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 1"><img src="./photo 01.jpg" alt="WashU"></a>
+            <a href="./photo 02.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 2"><img src="./photo 02.jpg" alt="WashU"></a>
+            <a href="./photo 03.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 3"><img src="./photo 03.jpg" alt="WashU"></a>
+            <a href="./photo 04.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 4"><img src="./photo 04.jpg" alt="WashU"></a>
+            <a href="./photo 05.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 5"><img src="./photo 05.jpg" alt="WashU"></a>
+            <a href="./photo 06.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 6"><img src="./photo 06.jpg" alt="Ackert park walkway"></a>
+            <a href="./photo 07.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 7"><img src="./photo 07.jpg" alt="University city"></a>
+            <a href="./photo 08.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 8"><img src="./photo 08.jpg" alt="Forest park"></a>
+            <a href="./photo 09.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 9"><img src="./photo 09.jpg" alt="Forest park"></a>
+            <a href="./photo 10.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 10"><img src="./photo 10.jpg" alt="WashU"></a>
+            <a href="./photo 11.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 11"><img src="./photo 11.jpg" alt="Wahsu"></a>
+            <a href="./photo 12.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 12"><img src="./photo 12.jpg" alt="Wahsu"></a>
+            <a href="./photo 13.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 13"><img src="./photo 13.jpg" alt="Wahsu"></a>
+            <a href="./photo 14.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 14"><img src="./photo 14.jpg" alt="Wahsu"></a>
+            <a href="./photo 15.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 15"><img src="./photo 15.jpg" alt="Wahsu"></a>
+            <a href="./photo 16.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 16"><img src="./photo 16.jpg" alt="Wahsu"></a>
+            <a href="./photo 17.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 17"><img src="./photo 17.jpg" alt="Forest park"></a>
+            <a href="./photo 18.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 18"><img src="./photo 18.jpg" alt="Ackert park walkway"></a>
+            <a href="./photo 19.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 19"><img src="./photo 19.jpg" alt="WahU"></a>
+            <a href="./photo 20.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 20"><img src="./photo 20.jpg" alt="WashU"></a>
+            <a href="./photo 21.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 21"><img src="./photo 21.jpg" alt="Westgate"></a>
+            <a href="./photo 22.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 22"><img src="./photo 22.jpg" alt="Forest Park"></a>
+            <a href="./photo 23.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 23"><img src="./photo 23.jpg" alt="WashU"></a>
+            <a href="./photo 24.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 24"><img src="./photo 24.jpg" alt="IISER TVM"></a>
+            <a href="./photo 25.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 25"><img src="./photo 25.jpg" alt="Poovar"></a>
+            <a href="./photo 26.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 26"><img src="./photo 26.jpg" alt="IISER TVM"></a>
+            <a href="./photo 27.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 27"><img src="./photo 27.jpg" alt="IISER TVM"></a>
+            <a href="./photo 28.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 28"><img src="./photo 28.jpg" alt="Poovar"></a>
+            <a href="./photo 29.jpg" class="glightbox" data-gallery="gallery1" data-title="Image 29"><img src="./photo 29.jpg" alt="Poovar"></a>
+        </div>
+    </div>
+</section>
+<section id="contact">
+        <div class="container">
+            <h1 class="section-title">Contact</h1>
+            <p class="section-text">
+                Connect with me to learn more about my research and potential collaborations. </p>
+            <p>Email: javedpathan112@gmail.com</p>
+            <p><a href="https://www.linkedin.com/in/javed-pathan-500373270/">LinkedIn:</a></p>
+            <p><a href="https://www.researchgate.net/profile/Javed-Pathan-3">Research gate:</a></p>
+            <p><a href="https://x.com/PathanJaved0120">Twitter:</a></p>
+
+        </div>
+    </section>
+
+<!-- Glightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+    const lightbox = GLightbox({
+        selector: '.glightbox',
+        loop: true,
+        touchNavigation: true,
+        slideEffect: 'fade',
+        autoplayVideos: false
+    });
+</script>
+
+
+</body>
+
+</html>
